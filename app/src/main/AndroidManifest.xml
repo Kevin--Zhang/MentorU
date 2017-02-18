@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.virginiatech.piraj.hokievent">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <!-- Permission for server connection -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".LoginActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ConfirmEventActivity"
+            android:label="Confirm Event"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".CreateEventActivity"
+            android:label="@string/createEventTitle"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".CreateAccountActivity"
+            android:label="@string/createAccountTitle"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".EventDetailsActivity"
+            android:label="@string/eventDetailsTitle"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".EditEventActivity"
+            android:label="Edit Event"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ProfileActivity"
+            android:label="@string/profileViewTitle"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".EditProfileActivity"
+            android:label="@string/editProfileTitle"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".InterestsActivity"
+            android:label="@string/interestsActivityTitle"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".SearchActivity"
+            android:label="@string/searchActivityTitle"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".SearchResultsActivity"
+            android:label="@string/searchResultsTitle"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".HomeActivity"
+            android:label="@string/homeActivityTitle"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".TagsActivity"
+            android:label="Tags"
+            android:screenOrientation="portrait"/>
+
+        <!-- Google Maps API key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAtiIEOjmrbN5-3DdpXXYOOdVks1oR71mQ"/>
+    </application>
+
+</manifest>

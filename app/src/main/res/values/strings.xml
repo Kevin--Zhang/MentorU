@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">HokiEvent</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Navigation bar texts -->
+    <string name="homeActivityTitle">Home</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_create_event">Create</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Create account view -->
+    <string name="createAccountTitle">Create Account</string>
+
+    <!-- Create HokiEvent view strings -->
+    <string name="createEventTitle">Create Event</string>
+    <string name="eventName">Event name</string>
+    <string name="startDate">Start date</string>
+    <string name="endDate">End date</string>
+    <string name="startTime">Start time</string>
+    <string name="endTime">End time</string>
+    <string name="location">Event location</string>
+    <string name="description">Description</string>
+    <string name="tags">Tags</string>
+    <string name="createEventEnterTags">Enter Tags</string>
+    <string name="createEventNextButton">Next</string>
+    <string name="createEventCancelButton">Cancel</string>
+
+    <!-- Event details view -->
+    <string name="eventDetailsTitle">Event Details</string>
+
+    <!-- Profile view strings -->
+    <string name="profileViewTitle">Profile</string>
+    <string name="profileInterestsTitle">Your Interests</string>
+    <string name="editProfileButton">Edit Profile</string>
+    <string name="logoutButton">Log out</string>
+
+
+    <!-- Edit profile strings -->
+    <string name="editProfileTitle">Edit Profile</string>
+    <string name="firstname">First name</string>
+    <string name="middlename">Middle name</string>
+    <string name="lastname">Last name</string>
+    <string name="phonenumber">Phone number</string>
+    <string name="interestsTitle">Interests</string>
+    <string name="editInterestsButton">Edit interests</string>
+    <string name="saveChangesButton">Save changes</string>
+    <string name="cancelButton">Cancel</string> <!-- TODO: Would this useful? -->
+
+    <!-- Interest strings -->
+    <string name="interestsActivityTitle">Interests</string>
+
+    <string name="sports">Sports</string>
+    <string name="academics">Academics</string>
+    <string name="food">Food</string>
+    <string name="culture">Culture</string>
+    <string name="art">Art</string>
+    <string name="nature">Nature</string>
+    <string name="filmTV">Film/TV</string>
+    <string name="music">Music</string>
+    <string name="literature">Literature</string>
+    <string name="military">Military</string>
+    <string name="family">Family</string>
+    <string name="gaming">Gaming</string>
+    <string name="travel">Travel</string>
+    <string name="animals">Animals</string>
+
+    <!-- Search activity -->
+    <string name="searchActivityTitle">Search Events</string>
+
+    <string name="searchTagsTitle">Input Tags</string>
+    <string name="searchStartDate">Input Start Date</string>
+    <string name="searchEndDate">Input End Date</string>
+    <string name="searchStartTime">Select Start Time</string>
+    <string name="searchEndTime">Select End Time</string>
+    <string name="searchDistanceTitle">Select Distance</string>
+    <string name="searchButton">Search</string>
+
+    <!-- Search results -->
+    <string name="searchResultsTitle">Search Results</string>
+
+
+    <!-- Tags -->
+    <string-array name="taglist">
+        <item name="tag-academics">Academics</item>
+        <item name="tag-animals">Animals</item>
+        <item name="tag-art">Art</item>
+        <item name="tag-culture">Culture</item>
+        <item name="tag-family">Family</item>
+        <item name="tag-film-tv">Film/TV</item>
+        <item name="tag-food">Food</item>
+        <item name="tag-gaming">Gaming</item>
+        <item name="tag-literature">Literature</item>
+        <item name="tag-military">Military</item>
+        <item name="tag-music">Music</item>
+        <item name="tag-nature">Nature</item>
+        <item name="tag-sports">Sports</item>
+        <item name="tag-travel">Travel</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.virginiatech.piraj.hokievent.ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/profileFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+
+        <!-- Phone number -->
+        <TextView
+            android:id="@+id/profilePhonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+
+        <!-- Email address -->
+        <TextView
+            android:id="@+id/profileEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+
+
+        <!-- Interests -->
+        <TextView
+            android:layout_marginTop="30dp"
+            android:text="Interests:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/profileInterestList"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <!-- Edit profile button -->
+        <Button
+            android:layout_marginTop="50dp"
+            android:id="@+id/editProfileButton"
+            android:text="@string/editProfileButton"
+            style="@style/ButtonBaseStyle"
+            android:layout_gravity="center_horizontal"/>
+
+        <!-- Log out button -->
+        <!-- TODO Style differently -->
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:text="@string/logoutButton"
+        style="@style/ButtonBaseStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+
+    <include android:id="@+id/bottomBar"
+        layout="@layout/navigation_bar"/>
+
+</RelativeLayout>
